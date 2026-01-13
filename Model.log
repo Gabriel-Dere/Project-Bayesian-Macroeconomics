@@ -1,0 +1,84 @@
+Starting Dynare (version 6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 20 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+7 block(s) found: 
+  6 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 10 equation(s) 
+                                 and 10 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+7 block(s) found: 
+  6 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 10 equation(s) 
+                                 and 5 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+C     		 0.542067
+C_SP  		 0.489639
+C_SA  		 0.564535
+L     		 0.333333
+l_sp  		 0.333333
+l_sa  		 0.333333
+B     		 0
+K     		 10.3956
+I     		 0.297315
+W     		 2.09845
+r     		 1.00864
+rK    		 0.0336432
+T     		 0.209845
+Y     		 1.04923
+G     		 0.209845
+A     		 1
+eps_G 		 1
+gy    		 0.359354
+gc    		 0.359354
+gr    		 0.864322
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+       2.018e-17        2.018e-17                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9681           0.9681                0
+           1.026            1.026                0
+       4.384e+14       -4.384e+14                0
+
+There are 2 eigenvalue(s) larger than 1 in modulus for 2 forward-looking variable(s)
+The rank condition is verified.
+
+
+
+Residuals of the static equations:
+Equation number  1: l_sp                             :       0.000000
+Equation number  2: l_sa                             :       0.000000
+Equation number  3: FOC: Consumption hand to mouth   :       0.000000
+Equation number  4: FOC: Bonds                       :       0.000000
+Equation number  5: FOC: Investment                  :       0.000000
+Equation number  6: Y                                :       0.000000
+Equation number  7: FOC: Capital Demand              :       0.000000
+Equation number  8: FOC: Labour Demand               :       0.000000
+Equation number  9: Production                       :       0.000000
+Equation number 10: AR(1) process of TFP             :       0.000000
+Equation number 11: Government Spending Rule         :       0.000000
+Equation number 12: AR(1) Gov Spending Shock Process :       0.000000
+Equation number 13: Government Budget                :       0.000000
+Equation number 14: Labour Market Clearing           :       0.000000
+Equation number 15: Capital Market Clearing          :       0.000000
+Equation number 16: Bond Market Clearing             :       0.000000
+Equation number 17: Aggregate Consumption definition :       0.000000
+Equation number 18: Observation: GDP Growth          :       0.000000
+Equation number 19: Observation: Consumption Growth  :       0.000000
+Equation number 20: Observation: Interest Rate       :       0.000000
+
+
+Total computing time : 0h00m00s

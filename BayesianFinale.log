@@ -1,0 +1,252 @@
+Starting Dynare (version 6.4).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 20 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+7 block(s) found: 
+  6 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 10 equation(s) 
+                                 and 10 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+7 block(s) found: 
+  6 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 10 equation(s) 
+                                 and 5 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+C     		 0.542067
+C_SP  		 0.489639
+C_SA  		 0.564535
+L     		 0.333333
+l_sp  		 0.333333
+l_sa  		 0.333333
+B     		 0
+K     		 10.3956
+I     		 0.297315
+W     		 2.09845
+r     		 1.00864
+rK    		 0.0336432
+T     		 0.209845
+Y     		 1.04923
+G     		 0.209845
+A     		 1
+eps_G 		 1
+gy    		 0.359354
+gc    		 0.359354
+gr    		 0.864322
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+       2.018e-17        2.018e-17                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9681           0.9681                0
+           1.026            1.026                0
+       4.384e+14       -4.384e+14                0
+
+There are 2 eigenvalue(s) larger than 1 in modulus for 2 forward-looking variable(s)
+The rank condition is verified.
+
+
+
+Residuals of the static equations:
+Equation number  1: l_sp                             :       0.000000
+Equation number  2: l_sa                             :       0.000000
+Equation number  3: FOC: Consumption hand to mouth   :       0.000000
+Equation number  4: FOC: Bonds                       :       0.000000
+Equation number  5: FOC: Investment                  :       0.000000
+Equation number  6: Y                                :       0.000000
+Equation number  7: FOC: Capital Demand              :       0.000000
+Equation number  8: FOC: Labour Demand               :       0.000000
+Equation number  9: Production                       :       0.000000
+Equation number 10: AR(1) process of TFP             :       0.000000
+Equation number 11: Government Spending Rule         :       0.000000
+Equation number 12: AR(1) Gov Spending Shock Process :       0.000000
+Equation number 13: Government Budget                :       0.000000
+Equation number 14: Labour Market Clearing           :       0.000000
+Equation number 15: Capital Market Clearing          :       0.000000
+Equation number 16: Bond Market Clearing             :       0.000000
+Equation number 17: Aggregate Consumption definition :       0.000000
+Equation number 18: Observation: GDP Growth          :       0.000000
+Equation number 19: Observation: Consumption Growth  :       0.000000
+Equation number 20: Observation: Interest Rate       :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+C     		 0.530835
+C_SP  		 0.507534
+C_SA  		 0.546921
+L     		 0.333333
+l_sp  		 0.333333
+l_sa  		 0.333333
+B     		 0
+K     		 11.5776
+I     		 0.339223
+W     		 2.17515
+r     		 1.00631
+rK    		 0.0313126
+T     		 0.217515
+Y     		 1.08757
+G     		 0.217515
+A     		 1
+eps_G 		 1
+gy    		 0.429078
+gc    		 0.429078
+gr    		 0.631263
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+       6.078e-18        6.078e-18                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9707           0.9707                0
+            1.02             1.02                0
+       4.131e+14       -4.131e+14                0
+
+There are 2 eigenvalue(s) larger than 1 in modulus for 2 forward-looking variable(s)
+The rank condition is verified.
+
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+Posterior IRFs, smoothed variables will be computed for the 20
+endogenous variables of your model, this can take a long
+time ....
+
+
+Choose one of the following options:
+
+ [1] Consider all the endogenous variables.
+ [2] Consider all the observed endogenous variables.
+ [3] Stop Dynare and change the mod file.
+ [4] Consider all the endogenous and auxiliary variables.
+
+options [default is 1] =  1
+
+Initial value of the log posterior (or likelihood): -2065.5595
+
+==========================================================
+   Change in the posterior covariance matrix = 3.9998.
+   Change in the posterior mean = 0.074471.
+   Current mode = 714.1835
+   Mode improvement = 1351.376
+   New value of jscale = 0.00060468
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 0.00019998.
+   Change in the posterior mean = 0.023565.
+   Current mode = 701.9876
+   Mode improvement = 12.1959
+   New value of jscale = 0.059025
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 9.2524e-05.
+   Change in the posterior mean = 0.033375.
+   Current mode = 698.7164
+   Mode improvement = 3.2711
+   New value of jscale = 0.70064
+==========================================================
+
+Optimal value of the scale parameter = 0.70064
+
+
+Final value of minus the log posterior (or likelihood):698.716422 
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+      prior mean     mode    s.d.  prior pstdev
+
+rho       0.7000   0.9990  0.0012   beta 0.2000 
+rho_G     0.7000   0.9987  0.0047   beta 0.2000 
+
+standard deviation of shocks
+      prior mean     mode    s.d.  prior pstdev
+
+eta_A     0.0100   0.0108  0.0005   invg 2.0000 
+eta_G     0.0100   0.0150  0.0016   invg 2.0000 
+
+
+Log data density [Laplace approximation] is -721.972879.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in BayesianFinale/metropolis\BayesianFinale_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 2.
+Estimation::mcmc: Total number of iterations: 2000.
+Estimation::mcmc: Current acceptance ratio per chain:
+                                                       Chain  1: 30.85%
+                                                       Chain  2: 34.55%
+Estimation::mcmc: Total number of MH draws per chain: 2000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 1001.
+Estimation::mcmc: Finally I keep 1000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2
+SE_eta_A         57.191      26.429
+SE_eta_G         52.689      10.340
+rho               9.153      13.437
+rho_G            30.562      23.507
+
+[Warning: MCMC convergence diagnostics are not computed because the total number of iterations is not bigger than 2000!] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('mcmc_diagnostics', 'C:\dynare\6.4\matlab\convergence_diagnostics\mcmc_diagnostics.m', 114)" style="font-weight:bold">mcmc_diagnostics</a> (<a href="matlab: opentoline('C:\dynare\6.4\matlab\convergence_diagnostics\mcmc_diagnostics.m',114,0)">line 114</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('dynare_estimation_1', 'C:\dynare\6.4\matlab\estimation\dynare_estimation_1.m', 465)" style="font-weight:bold">dynare_estimation_1</a> (<a href="matlab: opentoline('C:\dynare\6.4\matlab\estimation\dynare_estimation_1.m',465,0)">line 465</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('dynare_estimation', 'C:\dynare\6.4\matlab\estimation\dynare_estimation.m', 105)" style="font-weight:bold">dynare_estimation</a> (<a href="matlab: opentoline('C:\dynare\6.4\matlab\estimation\dynare_estimation.m',105,0)">line 105</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('BayesianFinale.driver', 'C:\Users\alexa\Documents\Cours Dauphine\Bayesian techniques in macroeconomics\Projet\+BayesianFinale\driver.m', 644)" style="font-weight:bold">BayesianFinale.driver</a> (<a href="matlab: opentoline('C:\Users\alexa\Documents\Cours Dauphine\Bayesian techniques in macroeconomics\Projet\+BayesianFinale\driver.m',644,0)">line 644</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('dynare', 'C:\dynare\6.4\matlab\dynare.m', 308)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\6.4\matlab\dynare.m',308,0)">line 308</a>)] 
+marginal density: I'm computing the posterior mean and covariance...  Done!
+marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density (Modified Harmonic Mean) is -723.881005.
+parameters
+        prior mean   post. mean        90% HPD interval    prior       pstdev
+
+rho          0.700       0.9982      0.9972      0.9990     beta       0.2000
+rho_G        0.700       0.9939      0.9887      0.9990     beta       0.2000
+
+standard deviation of shocks
+        prior mean   post. mean        90% HPD interval    prior       pstdev
+
+eta_A        0.010       0.0108      0.0101      0.0116     invg       2.0000
+eta_G        0.010       0.0168      0.0142      0.0186     invg       2.0000
+Estimation::mcmc: Posterior (dsge) IRFs...
+Estimation::mcmc: Posterior IRFs, done!
+Estimation::mcmc: Smoothed variables
+Estimation::mcmc: Smoothed variables, done!
+Estimation::mcmc: Smoothed shocks
+Estimation::mcmc: Smoothed shocks, done!
+Estimation::mcmc: Trend_coefficients
+Estimation::mcmc: Trend_coefficients, done!
+Estimation::mcmc: Smoothed constant
+Estimation::mcmc: Smoothed constant, done!
+Estimation::mcmc: Smoothed trend
+Estimation::mcmc: Smoothed trend, done!
+Estimation::mcmc: Updated Variables
+Estimation::mcmc: Updated Variables, done!
+Total computing time : 0h07m28s
+Note: warning(s) encountered in MATLAB/Octave code
